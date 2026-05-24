@@ -8,7 +8,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) {
-        
+        //This is the running file (Siam)
         LoginScreen loginScreen = new LoginScreen(primaryStage);
         loginScreen.show();
     }
